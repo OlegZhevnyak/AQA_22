@@ -101,11 +101,10 @@ public class CalculatorUtilities {
             }
             if (getOperator() == '/') {
                 doDivision();
-                break;
             } else {
                 System.out.println("You insert invalid operation. Please, repeat.");
-                break;
             }
+            break;
         }
     }
 }
